@@ -1,18 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC&display=swap');
+/*Maintained by leoandreotti -> github.com/leoandreotti*/
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 body {
-    font-family: 'Noto Serif TC', serif !important;
-        text-rendering: optimizeLegibility important;
-        word-spacing: -1px;
-        -webkit-font-smoothing: auto;
+    font-family: 'Muli', sans-serif !important;
+    text-rendering: optimizeLegibility important;
+    word-spacing: -1px;
+    -webkit-font-smoothing: auto;
 }
 
 .supports_custom_scrollbar #msg_input.texty_legacy .ql-editor {
-    font-family: 'Noto Serif TC', serif !important;
+    font-family: 'Muli', sans-serif !important;
 }
 
 .p-threads_footer__input--legacy .p-message_input_field .ql-editor {
-    font-family: 'Noto Serif TC', serif !important;
+    font-family: 'Muli', sans-serif !important;
 }
 
 div.c-message.c-message--light.c-message--hover {
@@ -2511,6 +2512,7 @@ c-keyboard_key {
     height: auto;
     border: none;
     color: #ffffff;
+    background: #333;
 }
 
 .c-pillow_file__snippet__content .CodeMirror-code>div:before {
@@ -3238,6 +3240,10 @@ div.p-message_pane__foreword__description span {
     letter-spacing: -0.3px !important;
 }
 
+.workspace__primary_view_footer {
+    background: #222222 !important;
+}
+
 .p-workspace--classic-nav .p-workspace__primary_view_footer {
     background: #222222 !important;
 }
@@ -3759,10 +3765,6 @@ c-search_autocomplete__query_parts .token:hover {
         box-shadow: 0 -1px 0 0 #494848 !important;
     }
 
-    .p-message_pane_input {
-        background-color: #222222 !important;
-    }
-
     .p-message_pane_input__preview {
         padding: 24px 30px;
         background-color: #222222 !important;
@@ -3807,4 +3809,11 @@ c-search_autocomplete__query_parts .token:hover {
         background: #222222;
         color: white;
         border-left: 1px solid #3c3c3c !important;
+    }
+
+    .c-message_kit__actions {
+        background: #222222;
+    }
+    .c-message_kit__actions:hover {
+        background-color: #3e3e3e !important;
     }
