@@ -3759,6 +3759,10 @@ c-search_autocomplete__query_parts .token:hover {
         box-shadow: 0 -1px 0 0 #494848 !important;
     }
 
+    .p-message_pane_input {
+        background-color: #222222 !important;
+    }
+
     .p-message_pane_input__preview {
         padding: 24px 30px;
         background-color: #222222 !important;
