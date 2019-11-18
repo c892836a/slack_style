@@ -3074,6 +3074,10 @@ channel_invite_tokens input {
     background-color:#222222;
 }
 
+.c-message_kit__gutter:hover {
+    background-color:#3e3e3e !important;
+}
+
 .p-starred_item {
     border-bottom: 1px solid #464646;
 }
